@@ -1,6 +1,9 @@
 # Explanation of Huffman Code algorithm
 
-This program creates a compressed binary file of a given text file using the Huffman algorithm of optimal prefix code.
+This program creates a compressed binary file of a given text file using the Huffman algorithm of optimal prefix code, as shown in the diagram below:
+
+![alt tag](https://github.com/phsimo/Compressing-with-Huffman-Code/blob/master/huffman.jpg)
+
 
 It starts by reading and creating a HashMap of the frequency of appearances of each character in the text file.
 Next, based on this frequency HashMap the program creates a variable-length prefix code for each character by using Huffman code algorithm (greedy algorithm).
