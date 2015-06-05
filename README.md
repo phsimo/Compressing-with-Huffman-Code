@@ -5,7 +5,7 @@ This program creates a compressed binary file of a given text file using the Huf
 ![alt tag](https://github.com/phsimo/Compressing-with-Huffman-Code/blob/master/huffman.jpg)
 
 
-It starts by reading and creating a HashMap of the frequency of appearances of each character in the text file.
+The program starts by reading and creating a HashMap of the frequency of appearances of each character in the text file.
 Next, based on this frequency HashMap the program creates a variable-length prefix code for each character by using Huffman code algorithm (greedy algorithm).
 The main principle of the Huffman code algorithm is to assign the shortest prefix code to the most frequent character, in order to minimize the size of the compressed file.
 In order to achieve this principle, we put all the characters and their frequencies into a PriorityQueue<Node> (min-heap - see my previous program for min/max heap -- https://github.com/phsimo/MaxHeap.git).
