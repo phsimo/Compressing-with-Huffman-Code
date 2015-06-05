@@ -1,4 +1,4 @@
-# HuffmanCode
+# Explanation of Huffman Code algorithm
 
 This program creates a compressed binary file of a given text file using the Huffman algorithm of optimal prefix code.
 
